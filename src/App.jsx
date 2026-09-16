@@ -8,7 +8,7 @@ export default function App() {
   const [cart, setCart] = useState([]);
   const [discountPercent, setDiscountPercent] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [, setError] = useState(null);
 
   const [stores, setStores] = useState([]);
   const [inventory, setInventory] = useState({});
